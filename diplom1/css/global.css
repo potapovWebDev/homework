@@ -1,0 +1,53 @@
+:root {
+    --general-text: #ffffff;
+    --accent-text: #4abcec;
+    --accent-text-2: #00e0ff;
+    --transition: all .4s;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #13CDC2 #043A41;
+}
+
+.body {
+    font-family: "Avenir Next Cyr", sans-serif;
+    line-height: 1.5;
+    color: var(--general-text);
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 54px;
+    text-transform: uppercase;
+    /* color: #4abcec; */
+}
+
+.title__accent {
+    color: var(--accent-text-2)
+}
